@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Font";
+    src: url("assets/Pajarakan\ Studs.otf") format("opentype");
+}
+
+* {
+    color: #B8AA9A;
+    font-family: "Font";
+    font-size: 12px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+body { 
+    margin: 0; 
+    height: 100%;
+    background-color: #1B1714;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 clamp(1vw, 2vw, 40px);
+    width: 100%;
+    height: 20dvh;
+    align-items: center;
+    background-color: #2a241f;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding: 12px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    line-height: 1;
+}
