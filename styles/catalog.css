@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Font";
-    src: url("assets/Pajarakan\ Studs.otf") format("opentype");
+    src: url("../assets/Pajarakan\ Studs.otf") format("opentype");
 }
 
 @media (max-width: 768px) {
@@ -59,17 +59,47 @@ header {
     background-color: #2a241f;
 }
 
-.hero {
-    display: block;
-    text-align: center;
-    width: 97%;
-    height: 60dvh;
-    margin: 15px auto;
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+    margin: 12px;
+}
+
+.item {
+    flex-wrap: wrap;
+    height: 400px;
+    line-height: 1.3;
     border-radius: 15px;
     background: linear-gradient(180deg,
-        #241f1b 0%,
-        #1B1714 100%);
+            #241f1b 0%,
+            #473a31 100%);
     box-shadow: 0px 4px 12px 0px rgba(0, 0, 0);
+    margin: 10px;
+}
+
+.item h1 {
+    font-size: 26px;
+    margin: 10px;
+}
+
+.item > p {
+    font-size: 11px;
+    margin: 0px 12px 0px 12px;
+    word-spacing: 2px;
+
+}
+
+.item h3 {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: -12px;
+    margin-bottom: 16px;
+    color: #b39b81;
+}
+
+.item:hover {
+    transform: scale(1.05);
 }
 
 ul {
@@ -92,37 +122,17 @@ li {
     cursor: pointer;
 }
 
-.genders {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: row;
-    margin-top: 50px;
-}
-
-.genders input {
-    cursor: pointer;
-    flex: 1;
-    transition: all 0.5s ease;
-    margin: 10px;
-    padding: 20px;
-    border: none;
-    border-radius: 10px;
-    background: #2b211a;
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0);
-    font-size: 12px;
-}
-
-.genders input:hover {
-    flex: 10;
-    color: #000;
-    background-color:rgb(177, 148, 110);
-}
-
 li:hover {
     color: beige;
 }
 
 a {
     all: unset;
+}
+
+img {
+    margin-top: 20px;
+    border-radius: 12px;
+    height: 200px;
+    width: 225px;
 }
