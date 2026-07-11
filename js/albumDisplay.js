@@ -8,7 +8,7 @@ async function loadAlbums() {
 
     albums.forEach(album => {
         container.innerHTML += `
-            <a href="${album.page}">
+            <a href="${album.link}">
                 <div class="item">
                     <div style="display:flex; justify-content:center;">
                         <img src="${album.cover}" alt="${album.title}">

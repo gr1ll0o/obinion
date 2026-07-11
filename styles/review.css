@@ -1,0 +1,223 @@
+@font-face {
+    font-family: "Font";
+    src: url("../assets/Pajarakan\ Studs.otf") format("opentype");
+}
+
+@media (max-width: 768px) {
+    #logotxt {
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+
+    #title {
+        font-size: 30px;
+    }
+
+    #subtitle {
+        font-size: 18px;
+    }
+    .hero {
+        flex-direction: column;
+    }
+
+    .album-card,
+    .review {
+        width: 100%;
+    }
+
+    .album-card {
+        position: static;
+    }
+}
+
+* {
+    color: #B8AA9A;
+    font-family: "Font";
+    font-size: 12px;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    line-height: 1;
+    cursor: pointer;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+header h2 {
+    font-size: clamp(20px, 46px, 80px);
+    padding: 7cqb;
+    margin: 0;
+}
+
+header h3 {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+#logotxt {
+    font-size: clamp(12px, 29px, 42px);
+    margin-top: 7px;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    background-color: #1B1714;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 clamp(1vw, 2vw, 40px);
+    width: 100%;
+    height: 12dvh;
+    align-items: center;
+    background-color: #2a241f;
+}
+
+.logo {
+
+    line-height: 1;
+
+}
+
+.logo h1 {
+
+    font-size: 2rem;
+
+}
+
+.logo p {
+
+    padding-left: 12px;
+
+}
+
+ul {
+
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+}
+
+li {
+
+    cursor: pointer;
+
+}
+
+a {
+
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: min(1400px, 95%);
+    margin: 35px auto;
+    gap: 35px;
+}
+
+.album-card {
+    flex: 3;
+    background: #2A241F;
+    border-radius: 18px;
+    padding: 25px;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .35);
+}
+
+#cover {
+    width: 100%;
+    max-width: 320px;
+    border-radius: 12px;
+    display: block;
+    margin: auto;
+}
+
+.album-card h1 {
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+.album-card h2 {
+    margin-top: 5px;
+    font-size: 1rem;
+    opacity: .75;
+    font-weight: normal;
+}
+
+.rating {
+    margin: 0px 0;
+    font-size: 1.45rem;
+    color: #E8C874;
+}
+
+.rating span {
+    color: #B8AA9A;
+}
+
+.album-data {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.album-data p {
+    line-height: 0.5;
+    font-size: 10px;
+}
+
+.review {
+    flex: 7;
+    background: #2A241F;
+    border-radius: 18px;
+    padding: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .35);
+}
+
+.review h2 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.review p {
+    font-size: 1rem;
+    line-height: 1.9;
+    text-align: justify;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    cursor: pointer;
+    padding: 12px;
+    font-size: clamp(12px, 16px, 20px);
+    transition: all 0.5s ease;
+}
+
+li:hover {
+    color: beige;
+}
+
+a {
+    all: unset;
+}
