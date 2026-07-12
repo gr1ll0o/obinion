@@ -6,7 +6,7 @@
         "year": 1999,
         "cover": "assets/covers/bocanada.jpg",
         "description": "El regreso de Cerati electrónico y bien experimental.",
-        "genders": ["electro", "altrock", "00s", "arg"],
+        "genders": ["altrock", "electro", "00s", "arg"],
         "rating": 9.7,
         "link": "albums/bocanada.html"
     },
@@ -17,7 +17,7 @@
         "year": 1987,
         "cover": "assets/covers/afterchabon.jpg",
         "description": "Un clásico del post-punk argentino de los 80s",
-        "genders": ["altrock", "postpunk", "80s", "arg"],
+        "genders": ["postpunk", "altrock","80s", "arg"],
         "rating": 8.4,
         "link": "albums/after-chabon.html"
     },
