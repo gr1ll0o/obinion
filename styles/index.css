@@ -72,6 +72,11 @@ header {
     box-shadow: 0px 4px 12px 0px rgba(0, 0, 0);
 }
 
+#hero-image {
+    width: 40%;
+    height: 300px;
+}
+
 ul {
     display: flex;
     list-style: none;
