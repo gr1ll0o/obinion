@@ -27,9 +27,20 @@
         "artist": "Bon Jovi",
         "year": 1986,
         "cover": "assets/covers/slipperywhenwet.jpg",
-        "description": "La definición de glam rock, nada más que Bon Jovi",
-        "genders": ["rock", "80s"],
-        "rating": 8.1,
-        "link": "albums/after-chabon.html"
+        "description": "La definición del glam rock, nada más que Bon Jovi",
+        "genders": ["glam", "rock", "80s"],
+        "rating": 7.8,
+        "link": "albums/slippery-when-wet.html"
+    },
+    {
+        "id": 4,
+        "title": "Artaud",
+        "artist": "Pescado Rabioso",
+        "year": 1973,
+        "cover": "assets/covers/artaud.webp",
+        "description": "La definición del glam rock, nada más que Bon Jovi",
+        "genders": ["rock", "70s", "arg"],
+        "rating": 9.5,
+        "link": "albums/artaud.html"
     }
 ]
