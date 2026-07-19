@@ -18,10 +18,10 @@ async function loadAlbumsURL(mode=0) { // 0: URL Params, 1: Search params
             );
         }
     }else if (mode == 1) {
-        const name = searchInput.value;
+        const name = searchInput.value.toLowerCase();
 
         albums = albums.filter(album => 
-            album.title.includes(name)
+            album.title.toLowerCase().includes(name)
         );
         container.innerHTML = ``;
         console.log(albums);
