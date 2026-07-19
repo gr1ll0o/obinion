@@ -3,18 +3,63 @@
     src: url("../assets/Pajarakan\ Studs.otf") format("opentype");
 }
 
-@media (max-width: 768px) {
+#hero-image {
+    width: 40%;
+    max-width: 520px;
+    border-radius: 15px;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .5);
+    margin-right: 22px;
+    width: 40%;
+    height: 270px;
+    border-radius: 4%;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0);
+}
+
+@media (max-width:728px) {
     #logotxt {
         margin-top: 10px;
         margin-left: 15px;
     }
-
+    
     #title {
         font-size: 30px;
     }
 
     #subtitle {
         font-size: 18px;
+    }
+
+    .about-section {
+        padding: 25px;
+    }
+
+    .about-title {
+        text-align: center;
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .about-text {
+        width: 100%;
+    }
+
+    .about-text p {
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .about-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #hero-image {
+        width: 100%;
+        height: auto;
+        max-width: none;
+        object-fit: contain;
+        border-radius: 15px;
     }
 }
 
@@ -72,13 +117,42 @@ header {
     box-shadow: 0px 4px 12px 0px rgba(0, 0, 0);
 }
 
-#hero-image {
-    margin-right: 22px;
-    width: 40%;
-    height: 270px;
-    border-radius: 4%;
-    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0);
+.about-section {
+    min-height: 70dvh;
+    height: auto;
+    padding: 35px;
 }
+
+.about-title {
+    text-align: left;
+    padding: 0;
+    margin-bottom: 30px;
+    font-size: 42px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.about-text {
+    flex: 1;
+    text-align: left;
+    line-height: 1.8;
+}
+
+.about-text p {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.about-text i {
+    font-size: 15px;
+}
+
+
 
 ul {
     display: flex;
