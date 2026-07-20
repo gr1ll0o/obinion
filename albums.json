@@ -6,7 +6,7 @@
         "year": 1999,
         "cover": "assets/covers/bocanada.jpg",
         "description": "El regreso de Cerati electrónico y bien experimental.",
-        "genres": ["altrock", "electro", "00s", "arg"],
+        "genres": ["altrock", "electro", "00s", "90s", "arg"],
         "rating": 9.7,
         "link": "albums/bocanada.html"
     },
