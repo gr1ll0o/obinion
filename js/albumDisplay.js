@@ -8,24 +8,27 @@ async function loadAlbumsURL(mode=0) { // 0: URL Params, 1: Search params
     const response = await fetch("albums.json");
     let albums = await response.json();
 
-    if (mode == 0) {
-        const params = new URLSearchParams(window.location.search);
-        const genre = params.get("genre");
+    switch (mode) {
+        case 0:
+            const params = new URLSearchParams(window.location.search);
+            const genre = params.get("genre");
 
-        if (genre) {
-            albums = albums.filter(album =>
-                album.genres.includes(genre)
+            if (genre) {
+                albums = albums.filter(album =>
+                    album.genres.includes(genre)
+                );
+            }
+        break;
+        case 1: 
+            const name = searchInput.value.toLowerCase();
+
+            albums = albums.filter(album => 
+                album.title.toLowerCase().includes(name)
             );
-        }
-    }else if (mode == 1) {
-        const name = searchInput.value.toLowerCase();
-
-        albums = albums.filter(album => 
-            album.title.toLowerCase().includes(name)
-        );
-        container.innerHTML = ``;
-        console.log(albums);
-        if (albums == "") container.innerHTML = `<p>No hay resultados.</p>`;
+            container.innerHTML = ``;
+            console.log(albums);
+            if (albums == "") container.innerHTML = `<p>No hay resultados.</p>`;
+        break;
     }
 
     albums.forEach(album => {
@@ -56,9 +59,7 @@ async function loadAlbumsURL(mode=0) { // 0: URL Params, 1: Search params
 }
 
 searchInput.addEventListener('keydown', (e) => {
-    if (event.key === "Enter") {
-        loadAlbumsURL(1);
-    }
+    loadAlbumsURL(1);
 });
 
 loadAlbumsURL(0);
