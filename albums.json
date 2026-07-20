@@ -38,7 +38,7 @@
         "artist": "Pescado Rabioso",
         "year": 1973,
         "cover": "assets/covers/artaud.webp",
-        "description": "La definición del glam rock, nada más que Bon Jovi",
+        "description": "Obra cúmbre e indiscutida del llamado Rock Argentino.",
         "genres": ["rock", "70s", "arg"],
         "rating": 9.5,
         "link": "albums/artaud.html"
