@@ -16,10 +16,23 @@
     box-shadow: 0px 4px 12px 0px rgba(0, 0, 0);
 }
 
+#logotxt {
+    font-size: clamp(12px, 29px, 42px);
+    margin-top: 7px;
+}
+
+#logo-sub {
+    padding-left: 10px;
+}
+
 @media (max-width:728px) {
     #logotxt {
         margin-top: 10px;
-        margin-left: 15px;
+        margin-left: 12px;
+    }
+
+    #logo-sub {
+        padding-left: 18px;
     }
     
     #title {
@@ -81,11 +94,6 @@ h2 {
 h3 {
     font-size: 18px;
     font-weight: 100;
-}
-
-#logotxt {
-    font-size: clamp(12px,29px, 42px);
-    margin-top: 7px;
 }
 
 body { 
