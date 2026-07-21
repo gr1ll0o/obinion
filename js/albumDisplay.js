@@ -27,9 +27,10 @@ async function loadAlbumsURL(mode=0) { // 0: URL Params, 1: Search params
             );
             container.innerHTML = ``;
             console.log(albums);
-            if (albums == "") container.innerHTML = `<p>No hay resultados.</p>`;
         break;
     }
+
+    if (albums == "") container.innerHTML = `<p>No hay resultados.</p>`;
 
     albums.forEach(album => {
         container.innerHTML += `
