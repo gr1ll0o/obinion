@@ -3,6 +3,13 @@
 const container = document.getElementById("container");
 const searchInput = document.getElementById("search");
 
+function normalizeText(text) {
+    return text
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase();
+}
+
 async function loadAlbumsURL(mode=0) { // 0: URL Params, 1: Search params
 
     const response = await fetch("albums.json");
@@ -20,10 +27,11 @@ async function loadAlbumsURL(mode=0) { // 0: URL Params, 1: Search params
             }
         break;
         case 1: 
-            const name = searchInput.value.toLowerCase();
+            const name = normalizeText(searchInput.value);
+            console.log(name);
 
             albums = albums.filter(album => 
-                album.title.toLowerCase().includes(name)
+                normalizeText(album.title).includes(name)
             );
             container.innerHTML = ``;
             console.log(albums);
@@ -32,7 +40,7 @@ async function loadAlbumsURL(mode=0) { // 0: URL Params, 1: Search params
 
     if (albums == "") container.innerHTML = `<p>No hay resultados.</p>`;
 
-    albums.forEach(album => {
+    albums.reverse().forEach(album => {
         container.innerHTML += `
             <a href="${album.link}">
                 <div class="item">
