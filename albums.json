@@ -53,5 +53,16 @@
         "genres": ["rock", "80s", "arg"],
         "rating": 9.2,
         "link": "albums/clics-modernos.html"
+    },
+        {
+        "id": 6,
+        "title": "Babasónica",
+        "artist": "Babasónicos",
+        "year": 1997,
+        "cover": "assets/covers/babasonica.jpg",
+        "description": "Los nuevos trapos, el rock con máquina de ritmos, Charly y solo charly.",
+        "genres": ["altrock", "90s", "arg"],
+        "rating": 9.3,
+        "link": "albums/babasonica.html"
     }
 ]
