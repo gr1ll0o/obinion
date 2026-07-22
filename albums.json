@@ -28,7 +28,7 @@
         "year": 1986,
         "cover": "assets/covers/slipperywhenwet.jpg",
         "description": "La definición del glam rock, nada más que Bon Jovi",
-        "genres": ["glam", "rock", "80s"],
+        "genres": ["glam", "rock", "80s", "usa"],
         "rating": 7.8,
         "link": "albums/slippery-when-wet.html"
     },
@@ -50,7 +50,7 @@
         "year": 1983,
         "cover": "assets/covers/clicsmodernos.jpg",
         "description": "Los nuevos trapos, el rock con máquina de ritmos, Charly y solo charly.",
-        "genres": ["rock", "80s", "arg"],
+        "genres": ["rock", "pop", "80s", "arg"],
         "rating": 9.2,
         "link": "albums/clics-modernos.html"
     },
@@ -60,9 +60,20 @@
         "artist": "Babasónicos",
         "year": 1997,
         "cover": "assets/covers/babasonica.jpg",
-        "description": "Los nuevos trapos, el rock con máquina de ritmos, Charly y solo charly.",
-        "genres": ["altrock", "90s", "arg"],
+        "description": "Simbologías, agresividad, adolescencia y coqueteo con la muerte.",
+        "genres": ["altrock", "grunge", "90s", "arg"],
         "rating": 8.6,
         "link": "albums/babasonica.html"
+    },
+    {
+        "id": 7,
+        "title": "CASIOPEA",
+        "artist": "Casiopea",
+        "year": 1979,
+        "cover": "assets/covers/casiopea.jpg",
+        "description": "Los nuevos trapos, el rock con máquina de ritmos, Charly y solo charly.",
+        "genres": ["fusion", "jazz", "70s", "japan"],
+        "rating": 8.0,
+        "link": "albums/casiopea.html"
     }
 ]
