@@ -42,5 +42,16 @@
         "genres": ["rock", "70s", "arg"],
         "rating": 9.5,
         "link": "albums/artaud.html"
+    },
+    {
+        "id": 5,
+        "title": "Clics Modernos",
+        "artist": "Charly García",
+        "year": 1983,
+        "cover": "assets/covers/clicsmodernos.jpg",
+        "description": "Los nuevos trapos, el rock con máquina de ritmos, Charly y solo charly.",
+        "genres": ["rock", "80s", "arg"],
+        "rating": 9.2,
+        "link": "albums/clics-modernos.html"
     }
 ]
