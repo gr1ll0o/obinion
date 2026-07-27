@@ -97,5 +97,16 @@
         "genres": ["funk", "mpb", "pop", "80s", "brazil"],
         "rating": 7.8,
         "link": "albums/marcos-valle.html"
+    },
+    {
+        "id": 10,
+        "title": "Diamond Life",
+        "artist": "Sade",
+        "year": 1984,
+        "cover": "assets/covers/diamondlife.jpg",
+        "description": "Entre tanto ruido, el silencio y elegancia del sophisti-pop",
+        "genres": ["jazz", "soul", "pop", "80s", "usa"],
+        "rating": 9.8,
+        "link": "albums/diamond-life.html"
     }
 ]
