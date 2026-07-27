@@ -76,8 +76,8 @@
         "rating": 8.0,
         "link": "albums/casiopea.html"
     },
-        {
-        "id": 7,
+    {
+        "id": 8,
         "title": "Timely!!",
         "artist": "Anri",
         "year": 1983,
@@ -86,5 +86,16 @@
         "genres": ["citypop", "fusion", "pop", "80s", "japan"],
         "rating": 8.4,
         "link": "albums/timely.html"
+    },
+    {
+        "id": 9,
+        "title": "Marcos Valle",
+        "artist": "Marcos Valle",
+        "year": 1983,
+        "cover": "assets/covers/marcosvalle.jpg",
+        "description": "Groove, MPB puro y verano en Río... qué más?",
+        "genres": ["funk", "mpb", "pop", "80s", "brazil"],
+        "rating": 7.8,
+        "link": "albums/marcos-valle.html"
     }
 ]
