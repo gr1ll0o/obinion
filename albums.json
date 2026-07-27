@@ -75,5 +75,16 @@
         "genres": ["fusion", "jazz", "70s", "japan"],
         "rating": 8.0,
         "link": "albums/casiopea.html"
+    },
+        {
+        "id": 7,
+        "title": "Timely!!",
+        "artist": "Anri",
+        "year": 1983,
+        "cover": "assets/covers/timely.jpg",
+        "description": "El comienzo de la música de autos. Fórmula 1, virtuosismo futurista y mucho jazz.",
+        "genres": ["citypop", "fusion", "pop", "80s", "japan"],
+        "rating": 8.4,
+        "link": "albums/timely.html"
     }
 ]
