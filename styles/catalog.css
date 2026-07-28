@@ -159,3 +159,19 @@ img {
     padding: 15px;
     padding-top: 20px;
 }
+
+main {
+    animation: appear 0.5s ease-in-out forwards;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0%;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 100%;
+        transform: translateY(0px);
+    }
+}

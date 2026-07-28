@@ -343,3 +343,19 @@ img {
     height: 200px;
     width: 225px;
 }
+
+div {
+    animation: appear 0.5s ease-in-out forwards;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0%;
+        transform: translateY(-40px);
+    }
+
+    to {
+        opacity: 100%;
+        transform: translateY(0px);
+    }
+}
