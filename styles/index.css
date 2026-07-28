@@ -283,6 +283,7 @@ main {
             #473a31 100%);
     box-shadow: 0px 4px 12px 0px rgba(0, 0, 0);
     margin: 10px;
+    transition: all ease 0.25s;
 }
 
 .item h1 {
