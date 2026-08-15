@@ -108,5 +108,16 @@
         "genres": ["jazz", "soul", "pop", "80s", "usa"],
         "rating": 9.8,
         "link": "albums/diamond-life.html"
+    },
+    {
+        "id": 11,
+        "title": "After 5 Clash",
+        "artist": "Toshiki Kadomatsu",
+        "year": 1984,
+        "cover": "assets/covers/after-5-clash.jpg",
+        "description": "Una gema perdida por las calles nocturnas de Tokyo.",
+        "genres": ["citypop", "boogie", "pop", "80s", "japan"],
+        "rating": 8.3,
+        "link": "albums/after-5-clash.html"
     }
 ]
